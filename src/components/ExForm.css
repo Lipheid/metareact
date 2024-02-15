@@ -1,0 +1,21 @@
+.form-center{
+    display: flex;
+}
+.form-group{
+    flex: 1;
+}
+.form-control{
+    background-color: transparent;
+    border: none;
+    border-bottom:  1px solid var(--secondColor);
+    height: 3rem;
+    width: 100%;
+    font-size: 16px;
+}
+.submit-btn{
+border: 1px solid var(--mainBlue) !important;
+margin-top: 10px;
+border-radius: 30px;
+color:var(--mainBlue);
+
+}
